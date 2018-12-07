@@ -17,7 +17,7 @@ class joinchannelCommand extends commando.Command {
             if(!message.guild.voiceConnection){
                 message.member.voiceChannel.join()
                     .then(connection => {
-                        message.reply("Succesfully Connected");
+                        message.reply("I have joined the party");
                     })
             }
         } else {

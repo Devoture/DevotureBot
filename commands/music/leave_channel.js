@@ -14,6 +14,9 @@ class leavechannelCommand extends commando.Command {
 	async run(message, args) {
         if(message.guild.voiceConnection) {
             message.guild.voiceConnection.disconnect();
+            message.reply("Bye :(");
+        } else {
+            message.reply('Im not in a voice channel');
         }
 
     }
