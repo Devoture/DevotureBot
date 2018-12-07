@@ -1,10 +1,25 @@
 {
-	"name": "Devoture Inc",
-	"version": "0.1.0",
-	"description": "Official Devoture Inc Bot",
-	"author": "Exluto",
-	"dependencies": {
-		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-		"winston": "^3.1.0"
-	}
+  "name": "devoturebot",
+  "version": "0.1.0",
+  "description": "Devoture Inc Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devoture/DevotureBot.git"
+  },
+  "author": "Exluto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devoture/DevotureBot/issues"
+  },
+  "homepage": "https://github.com/Devoture/DevotureBot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "opusscript": "0.0.6"
+  }
 }
